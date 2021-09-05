@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+    background-size:cover;
+    text-align: center;
+    color :gray;
+}
+li{
+    display: table;
+}
+#todo-list{
+    margin-left: 35%;
+}
+#todo-list button{
+    margin-right:20px;
+    background-color:#F0F0E6;
+    border: solid 2px grey;
+    border-radius: 12px;
+}
+.hidden{
+    display: none;
+}
+#clock{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+	padding: 100px 0;
+    font-size: 200%;
+}
+#weather{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+	padding: 100px 0;
+    font-size: 200%;
+}
+#quote{
+    color:white;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+	padding: 100px 0;
+    font-size: 100%;
+}
+#quote span:last-child{
+    display: block;
+}
